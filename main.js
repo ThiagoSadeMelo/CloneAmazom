@@ -42,7 +42,7 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=cc159be31f2ceab59cbd88
             if(j == 0){
                 main.innerHTML+=`
 
-                    <div class="banner-principal" style="background-image:url('https://image.tmdb.org/t/p/original`+i.backdrop_path+`')"></div>
+                    <div class="banner-principal" style="margin-top:20px;background-image:url('https://image.tmdb.org/t/p/original`+i.backdrop_path+`')"></div>
                 
                 `;
             }else{
